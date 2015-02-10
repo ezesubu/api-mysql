@@ -1,3 +1,4 @@
+#example for routes
 module V1 
   class Autores < Base
    helpers SharedParams
@@ -28,7 +29,7 @@ module V1
           Autor.all.offset(1).limit(10)
         end
 
-        resource :libros do
+        resource :books do
           get "/" do
             guard!
             puts params

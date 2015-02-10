@@ -5,7 +5,6 @@ module V1
     mount SampleAPI
     mount SecretAPI
     mount Autores
-    mount Usuarios
   end
 end
 
